@@ -1,0 +1,45 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - redis
+    env_file:
+      - ./src/.env.dev
+    volumes:
+      - ./src:/app
+    command: ["sh", "-c", "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"]
+
+  db:
+    image: postgres:12
+    environment:
+      POSTGRES_DB: splendy
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: splendy
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+
+  frontend:
+    build:
+      context: ./client/
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    volumes:
+      - ./client:/app
+
+  redis:
+    image: "redis:latest"
+    ports:
+      - "6379:6379"
+
+volumes:
+  postgres_data:

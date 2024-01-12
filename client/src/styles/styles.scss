@@ -1,0 +1,33 @@
+// $button-color: #22272E;
+$dashboard-black: #242526;
+// $button-dialog-color: #00e580;
+$app-grey: #EDEDED;
+$stylish-green: #00bd6b;
+$stylish-yellow: #f5c518;
+$green-gradient-background: linear-gradient(
+    to left,
+    hsl(155, 65%, 88%),
+    rgba(255, 255, 255, 1)
+  );
+$green-gradient-background-reverse: linear-gradient(
+  to right,
+  hsl(155, 65%, 88%),
+  rgba(255, 255, 255, 1)
+  );
+$stylish-black: #001e2b;
+
+$font-size-large: 20px;
+
+
+//login-page
+$login_elements_width: 30%;
+$login_elements_width_small_screen: 70%;
+
+$header-h: 11vh;
+
+$almost-non-existent-grey: rgba(128, 128, 128, 0.203);
+
+$xs: 575px;
+$sm: 767px;
+$md: 991px;
+$lg: 1199px;

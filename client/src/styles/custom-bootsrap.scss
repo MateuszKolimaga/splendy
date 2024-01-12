@@ -1,0 +1,78 @@
+@import 'bootstrap';
+@import "@/styles/styles.scss";
+
+.btn-primary {
+    background-color: $stylish-green;
+    border: none;
+
+    &:hover, &:active, &:focus, &:disabled {
+        background-color: $stylish-green !important;
+    }
+}
+
+.btn-secondary {
+    background-color: $dashboard-black;
+    border: none;
+
+    &:hover, &:active, &:focus {
+        background-color: $dashboard-black !important;
+    }
+}
+
+.btn-outline-secondary {
+    background-color: white;
+    border: 1px solid #c7c9cc;
+    color: black;
+
+    &:hover, &:active, &:focus {
+        background-color: white !important;
+        color: black;
+        border: 1px solid #b2b4b8;
+    }
+}
+
+.btn-dark {
+    background-color: black;
+    color: white;
+
+    &:hover, &:active, &:focus {
+        background-color: black !important;
+        color: white;
+    }
+}
+
+.bg-light {
+    background-color: rgb(252, 252, 252) !important;
+}
+
+.bg-success {
+    background-color: $stylish-green !important;
+}
+
+.bg-warning {
+    background-color: $stylish-yellow !important;
+}
+
+.text-success {
+    color: $stylish-green !important;
+}
+
+.text-warning {
+    color: $stylish-yellow !important;
+}
+
+.border-success {
+    border: 1px solid $stylish-green !important;
+}
+
+.border-warning {
+    border: 1px solid $stylish-yellow !important;
+}
+
+.bg-secondary {
+    background-color: #c7c9cc !important;
+}
+
+.border-secondary {
+    border: 1px solid #c7c9cc !important;
+}
