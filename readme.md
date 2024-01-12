@@ -86,9 +86,15 @@ __Notice:__  The application containerized in this way is used for development p
 - __Personal finance__ dashboard: 0:00 - 0:25
 - __Expense Sharing__ dashboard: 0:25 - end
 
-https://github.com/MateuszKolimaga/finance-app-django-vue/assets/51016521/c2ba5e9a-f865-41b5-b67b-124c163369f3
+
+
+https://github.com/MateuszKolimaga/splendy/assets/51016521/0a61db99-5f29-44c4-88cd-359bbc6cdf91
+
+
 
 ## Login demo
 
-https://github.com/MateuszKolimaga/finance-app-django-vue/assets/51016521/fa424697-f96d-4a86-839a-34d3d544ad80
+
+
+https://github.com/MateuszKolimaga/splendy/assets/51016521/14092306-f87f-4bc4-8733-574132191f34
 
